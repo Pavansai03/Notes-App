@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import './Home.css'
 import './utilities.css'
@@ -7,6 +6,7 @@ import { useDispatch } from 'react-redux'
 import { addToPaste, updateToPaste } from '../redux/pasteSlice'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
+
 
 const Home = () => {
      const [title, setTitle] = useState("");
