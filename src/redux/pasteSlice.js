@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { localsName } from "ejs";
 import toast from "react-hot-toast";
 
 const initialState = {

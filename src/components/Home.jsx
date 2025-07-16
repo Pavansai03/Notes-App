@@ -7,8 +7,6 @@ import { useDispatch } from 'react-redux'
 import { addToPaste, updateToPaste } from '../redux/pasteSlice'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
-import toast from 'react-hot-toast'
-
 
 const Home = () => {
      const [title, setTitle] = useState("");
