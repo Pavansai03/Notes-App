@@ -54,3 +54,10 @@
 .hover:hover {
     cursor: pointer;
 }
+
+@media (max-width: 860px) {
+    .card {
+        width: 80vw;
+        transition: all 0.1s linear;
+    }
+}

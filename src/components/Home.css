@@ -40,3 +40,15 @@
     box-shadow: 1px 1px 10px black;
     border: none;
 }
+
+@media (max-width: 1200px) {
+    .content textarea {
+        min-width: 80vw;
+        transition: all 0.1s linear;
+    }
+
+    .title input {
+        width: 40vw;
+        transition: all 0.1s linear;
+    }
+}
