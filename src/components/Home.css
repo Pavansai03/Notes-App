@@ -1,0 +1,42 @@
+.title {
+    height: 10vh;
+}
+
+
+.title input {
+    background-color: rgb(227, 217, 217);
+    color: whitesmoke;
+    border: none;
+    height: 3vh;
+    border-radius: 15px;
+    width: 20vw;
+    box-shadow: 1px 1px 10px black;
+    background-color: rgb(67, 66, 66);
+
+}
+
+.title button {
+    height: 6vh;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+    border: none;
+    background-color: rgb(67, 66, 66);
+    color: rgb(230, 223, 223);
+
+}
+
+.title button:hover {
+    cursor: pointer;
+}
+
+.content textarea {
+    height: 50vh;
+    min-width: 40vw;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: rgb(67, 66, 66);
+    color: white;
+    box-shadow: 1px 1px 10px black;
+    border: none;
+}
